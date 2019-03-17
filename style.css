@@ -1,0 +1,25 @@
+.text-center {
+	text-align: center;
+}
+
+.col-25,.col-50 {
+	float: left;
+}
+.col-25 {
+	width: 25%;
+}
+.col-50 {
+	width: 50%;
+}
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.footer {
+	background-color: #ccc;
+	padding: 10px 0px;
+}
+.footer a {
+	color:#fff;
+}
